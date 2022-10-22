@@ -18,7 +18,7 @@ public class ThreeSum {
                 int curSum = random[i] + random[j];
                 int compliment = target - curSum;
                 if(hmap1.containsKey(compliment)){
-                    System.out.println("index " +random[i]+" + index "+random[j]+" + index "+hmap1.get(compliment)+" = "+target);
+                    System.out.println(" " +random[i]+" + "+random[j]+" + "+ compliment +" = "+target);
                 }
                 else{
                     hmap1.put(curSum, cnt);
